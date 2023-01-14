@@ -33,7 +33,7 @@
     gap: 266px;
 
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 64px;
     left: 0px;
     top: 0px;
@@ -94,7 +94,7 @@
 
     /* Primary */
 
-    color: #8447ff;
+    color: #8447FF;
 
     /* Inside auto layout */
 

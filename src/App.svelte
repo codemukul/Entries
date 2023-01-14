@@ -1,5 +1,6 @@
 <script>
   import Header from "./components/header.svelte";
+  import Kanban from "./kanban.svelte";
 </script>
 
 <Header />
@@ -38,11 +39,7 @@
   </div>
 
   <div class="lists">
-    <div class="list" id="list1">gsgs</div>
-    <div class="list" id="list2">gsdgs</div>
-    <div class="list" id="list3">sgdsgs</div>
-
-    <button class="addlist" />
+    <Kanban />
   </div>
 </main>
 
@@ -57,9 +54,10 @@
 
   .lists {
     position: absolute;
-    width: 1168px;
+    width: auto;
     height: 482px;
     right: 0px;
+    left: 112px;
     top: calc(50% - 482px / 2 + 39px);
   }
 
