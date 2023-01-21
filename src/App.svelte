@@ -7,7 +7,7 @@
 
 <main>
   <div class="title">
-    <span class="text1">Untitled Kan-Ban board</span>
+    <span class="text1">Kan-Ban board</span>
     <span class="edit">
       <svg
         width="16"
