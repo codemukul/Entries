@@ -46,10 +46,14 @@
 <style>
   .title {
     position: absolute;
-    width: auto;
-    height: 39px;
+    /* width: auto;
+    height: 39px; */ 
+    /* commented by jsaha */
     left: 112px;
     top: 96px;
+    /* added by jsaha */
+    display: flex;
+    justify-content: space-around;
   }
 
   .lists {
@@ -62,9 +66,10 @@
   }
 
   .text1 {
-    position: absolute;
+    /* position: absolute;
     width: 371px;
-    height: 39px;
+    height: 39px; */
+    /* commented by jsaha */
 
     /* Headline 2 */
 
@@ -75,19 +80,24 @@
     line-height: 39px;
     /* identical to box height */
 
-    display: flex;
-    align-items: flex-end;
+    /* display: flex;
+    align-items: flex-end; */
+    /* commented by jsaha */
     letter-spacing: 0.384px;
 
     color: #171a21;
   }
 
   .edit {
-    position: relative;
+    /* position: relative;
     width: 20px;
     height: 20px;
-    left: 495px;
+    left: 495px; */
+    /* commented by jsaha */
     /* top: 93px; */
+    /* Added by jsaha */
+    margin-left: 10px;
+    margin-top: 10px;
   }
 
   .adduser {
