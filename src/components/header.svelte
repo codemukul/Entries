@@ -20,6 +20,13 @@
     </div>
     <span class="text">Entries</span>
   </div>
+  <div class="navigations">
+      <a  style="padding: 10px;">Product</a>
+      <a  style="padding: 10px;">Pricing</a>
+      <a  style="padding: 10px;">Learn</a>
+      <a  style="padding: 10px;">Enterprise</a>
+      <a  style="padding: 10px;">Solution</a>
+  </div>
   <img class="logo" src="/logo.jpg" alt="logo" />
 </header>
 
