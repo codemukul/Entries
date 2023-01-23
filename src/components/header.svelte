@@ -21,11 +21,11 @@
     <span class="text">Entries</span>
   </div>
   <div class="navigations">
-      <a  style="padding: 10px;">Product</a>
-      <a  style="padding: 10px;">Pricing</a>
-      <a  style="padding: 10px;">Learn</a>
-      <a  style="padding: 10px;">Enterprise</a>
-      <a  style="padding: 10px;">Solution</a>
+      <a href="link">Product</a>
+      <a href="link">Pricing</a>
+      <a href="link">Learn</a>
+      <a href="link">Enterprise</a>
+      <a href="link">Solution</a>
   </div>
   <img class="logo" src="/logo.jpg" alt="logo" />
 </header>
@@ -108,5 +108,21 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+  }
+  .navigations a {
+    padding: 10px;
+    color: #8447FF;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+  }
+  .navigations a:hover {
+    /* padding: 15px; */
+    color: #000;
+    text-decoration: none;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 800;
   }
 </style>
