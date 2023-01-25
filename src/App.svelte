@@ -1,11 +1,12 @@
 <script>
   import Header from "./components/header.svelte";
   import Kanban from "./kanban.svelte";
+  import Home from "./home.svelte";
 </script>
 
 <Header />
-
-<main>
+<Home />
+<main style="display: none;">
   <div class="title">
     <span class="text1">Kan-Ban board</span>
     <span class="edit">
@@ -39,7 +40,7 @@
   </div>
 
   <div class="lists">
-    <Kanban />
+    <!-- <Kanban /> -->
   </div>
 </main>
 

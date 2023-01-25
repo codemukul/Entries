@@ -116,6 +116,7 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
+    font-size: 20px;
   }
   .navigations a:hover {
     /* padding: 15px; */
